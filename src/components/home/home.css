@@ -1,0 +1,16 @@
+.job{
+    width: 250px;
+    height: 250px;
+    border: 1px solid grey;
+    text-align: center;
+    margin-top: 28px !important;
+}
+
+#job-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.job img{
+    width: 60%;
+}

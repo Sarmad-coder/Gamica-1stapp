@@ -1,0 +1,71 @@
+#benefits {
+    background-image: url(https://instaglobalpay.live/images/tr-circle-bg.png);
+
+    background-repeat: no-repeat;
+    background-color: #000000;
+    background-position: left center;
+    float: left;
+    width: 100%;
+}
+
+#benefit_title {
+    font-weight: 600;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.smallDot {
+    background-color: #fbbd18;
+
+    width: 8px;
+    height: 5px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.mediumDot {
+    background-color: #fbbd18;
+    margin-right: 10px;
+    width: 40px;
+    height: 5px;
+    display: inline-block;
+}
+
+#center {
+    text-align: center;
+}
+#subText{
+    max-width: 740px;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #bbb;
+}
+.benefitCard{
+    margin-top: 0;
+
+}
+.cardBorder{
+    border: 2px solid #bbbbbb;
+    border-radius: 6px;
+    margin: 20px;
+}
+.cardBorder:hover{
+    transition: 0.8s;
+    border: 2px solid #fbbd18;
+    cursor: pointer;
+}
+.cardContent{
+    color: #bbbbbb;;
+}
+.cardTitle{
+    font-weight: 600;
+}
+.card .card-image {
+    position: relative;
+    padding-top: 35px;
+}
+#padding_bottom{
+    padding-bottom: 60px;
+}

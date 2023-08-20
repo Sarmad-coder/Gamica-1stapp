@@ -1,0 +1,63 @@
+#workBackground {
+    background-image: url(https://instaglobalpay.live/images/bg-1.jpg);
+
+
+
+    float: left;
+    width: 100%;
+}
+
+#test12 {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+}
+
+.innerBox {
+    background-color: black;
+    border-radius: 100px;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.innerBox img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+#mainBox {
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.outerBox {
+    border: 2px solid black;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.value {
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+.innerText {
+    text-align: center;
+    margin: 0;
+    font-weight: 500;
+}

@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+.box{
+  width:100px;
+  height:100px;
+  background-color: orange;
+}
+.videoCounter{
+  background-color: white;
+  color:black;
+  position: absolute;
+  bottom:0;
+  right:0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.frame-piece{
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.frame-pic{
+  width:376px !important;
+  position: absolute;
+  top:100px;
+  left:84px;
+  height: 376px;
+  z-index:-1;
+}
+.frame-piece img{
+  width:500px;
+}
+.error{
+  color:red;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button, button:focus{
+  background-color: white;
+}
+
+select{
+  display: inline !important;
+}
+
+#appContainer {
   display: flex;
+  min-height: 100vh;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.adBox{
+  width: 200px;
+  height: 200px;
+  border:1px solid grey;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+main {
+  flex: 1 0 auto;
+}
+
+.imageBox{
+  height: 100px;
+  text-align: center;
+  background-color: #222222;
+}
+
+.videoCard{
+  position: relative;
+}
+
+.videoCard h5{
+  position: absolute;
+  bottom:0;
+  background-color: black;
+  color:white
+}
+.videoCard img{
+  width: 100%;
+}
+
+.video-container{
+  display: flex;
+  column-gap: 10px;
+}
+
+.videoCard{
+  width:250px;
+  height: 200px;
+  border:1px solid red;
+}
+
+.hide{
+  display: none;
+}
+
+.imageBox img{
+  max-height: 100%;
+}
+
+#adContainer{
+  display: flex;
+  justify-content: space-around;
 }

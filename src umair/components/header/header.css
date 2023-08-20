@@ -1,0 +1,54 @@
+.btn-large {
+    height: 45px;
+    line-height: 45px;
+    font-size: 15px;
+    padding: 0 28px;
+    border-radius: 5px;
+    background: #fbbd18;
+    color: #1d1d1d;
+}
+
+.nav-wrapper ul li {
+    font-weight: 700;
+
+}
+.nav-wrapper ul li a:hover{
+    color: #c59100 !important;
+}
+.sidenav li a:hover{
+    color: #c59100 !important;
+}
+
+nav .nav-wrapper {
+    position: relative;
+    height: 100%;
+    padding-top: 30px;
+}
+
+nav {
+    background-color: transparent;
+}
+.brand-logo{
+    width: 35%;
+    margin-left: -120px;
+}
+.brand-logo img{
+    width: 100%;
+    /* margin-left: -70px; */
+}
+nav ul {
+    margin-right: -70px;
+    /* margin: 0px; */
+    margin-top: 0px;
+}
+nav .sidenav-trigger {
+    float: left;
+    position: absolute;
+    z-index: 1;
+    height: 56px;
+    margin: 0 18px;
+    right: 0;
+}
+.homeText{
+    color: #fbbd18 !important;
+}

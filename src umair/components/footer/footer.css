@@ -1,0 +1,24 @@
+#footer {
+    background-color: black;
+}
+
+#footerLogo {
+    display: block;
+}
+
+#imgLike {
+    margin-top: 68px;
+}
+
+#copyrightTXT {
+    margin-top: 70px;
+}
+.footerLinks:hover{
+    color: goldenrod !important;
+    cursor: pointer;
+}
+#newsLetter{
+    opacity: 40%;
+    width: 65%;
+    margin-right: 15px;
+}

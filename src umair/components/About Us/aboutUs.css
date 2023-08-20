@@ -1,0 +1,15 @@
+.card-title h2{
+    font-weight: 800;
+    display: inline;
+    
+}
+#aboutBody{
+    color: #606060;
+    margin-bottom: 1em;
+}
+.aboutBody{
+    margin-bottom: 1em !important;
+}
+.card{
+    box-shadow: none;
+}
